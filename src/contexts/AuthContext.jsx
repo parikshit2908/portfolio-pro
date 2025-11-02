@@ -24,6 +24,13 @@ export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
+    // If Firebase is not configured, skip auth state listener
+    if (!auth) {
+      console.warn('⚠️ Firebase auth is not configured. Authentication features will not work.');
+      setLoading(false);
+      return;
+    }
+
     // Listen for authentication state changes
     const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
       if (firebaseUser) {
@@ -62,6 +69,13 @@ export const AuthProvider = ({ children }) => {
 
   // Login function using Firebase
   const login = async (email, password) => {
+    if (!auth) {
+      return { 
+        success: false, 
+        error: 'firebase-not-configured',
+        errorMessage: 'Firebase is not configured. Please set up your .env.local file. See FIREBASE_SETUP.md for instructions.'
+      };
+    }
     try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       return { success: true, user: userCredential.user };
@@ -76,6 +90,13 @@ export const AuthProvider = ({ children }) => {
 
   // Signup function using Firebase
   const signup = async (email, password, displayName) => {
+    if (!auth) {
+      return { 
+        success: false, 
+        error: 'firebase-not-configured',
+        errorMessage: 'Firebase is not configured. Please set up your .env.local file. See FIREBASE_SETUP.md for instructions.'
+      };
+    }
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       
@@ -98,6 +119,12 @@ export const AuthProvider = ({ children }) => {
 
   // Logout function using Firebase
   const logout = async () => {
+    if (!auth) {
+      // If Firebase is not configured, just clear local state
+      setUser(null);
+      setIsAuthenticated(false);
+      return { success: true };
+    }
     try {
       await signOut(auth);
       // State will be automatically updated by onAuthStateChanged

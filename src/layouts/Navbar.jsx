@@ -1,16 +1,16 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"; // eslint-disable-line no-unused-vars
 import { useTheme } from "../contexts/ThemeContext";
 import { useAuth } from "../contexts/AuthContext";
 import "./Navbar.css";
 
-const NavBar = () => {
+const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
   const { isAuthenticated, user, logout } = useAuth();
   const navigate = useNavigate();
 
-  const handleProtectedLink = (e, path) => {
+  const handleProtectedLink = (e) => {
     if (!isAuthenticated) {
       e.preventDefault();
       navigate("/login");
@@ -101,7 +101,7 @@ const NavBar = () => {
               <Link
                 to="/dashboard"
                 className="nav-link mx-3 custom-nav-link-color"
-                onClick={(e) => handleProtectedLink(e, "/dashboard")}
+                onClick={handleProtectedLink}
               >
                 Dashboard
               </Link>
@@ -115,7 +115,7 @@ const NavBar = () => {
               <Link
                 to="/ask-ai"
                 className="nav-link mx-3 custom-nav-link-color"
-                onClick={(e) => handleProtectedLink(e, "/ask-ai")}
+                onClick={handleProtectedLink}
               >
                 Ask AI
               </Link>
@@ -204,4 +204,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
