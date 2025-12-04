@@ -1,0 +1,82 @@
+{
+  "name": "Creative Showcase",
+  "category": "Design",
+  "description": "A bold, creative portfolio perfect for artists, designers, and creative professionals. Features vibrant colors and visual storytelling.",
+  "fields": {
+    "hero": {
+      "type": "object",
+      "label": "Hero Section",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Name",
+          "default": "Sarah Creative"
+        },
+        "title": {
+          "type": "text",
+          "label": "Title",
+          "default": "Visual Artist & Designer"
+        },
+        "bio": {
+          "type": "textarea",
+          "label": "Bio",
+          "default": "I create visual experiences that tell stories and evoke emotions."
+        },
+        "hero_image": {
+          "type": "text",
+          "label": "Hero Image URL",
+          "default": ""
+        }
+      }
+    },
+    "portfolio": {
+      "type": "repeater",
+      "label": "Portfolio Items",
+      "itemLabel": "Item",
+      "fields": {
+        "title": {
+          "type": "text",
+          "label": "Title",
+          "default": "Project Title"
+        },
+        "category": {
+          "type": "text",
+          "label": "Category",
+          "default": "Design"
+        },
+        "image": {
+          "type": "text",
+          "label": "Image URL",
+          "default": ""
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "Project description"
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "label": "Contact",
+      "fields": {
+        "email": {
+          "type": "text",
+          "label": "Email",
+          "default": "hello@sarahcreative.com"
+        },
+        "instagram": {
+          "type": "text",
+          "label": "Instagram",
+          "default": ""
+        },
+        "behance": {
+          "type": "text",
+          "label": "Behance",
+          "default": ""
+        }
+      }
+    }
+  }
+}
+

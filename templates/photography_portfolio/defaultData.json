@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "name": "Emma Photography",
+    "tagline": "Capturing moments that last forever",
+    "specialization": "Wedding & Portrait Photography"
+  },
+  "gallery": [
+    {
+      "title": "Sunset Wedding",
+      "image": "",
+      "category": "Wedding",
+      "description": "Beautiful outdoor wedding ceremony at golden hour"
+    },
+    {
+      "title": "Portrait Session",
+      "image": "",
+      "category": "Portrait",
+      "description": "Professional headshot session in natural light"
+    },
+    {
+      "title": "Family Moments",
+      "image": "",
+      "category": "Family",
+      "description": "Candid family photography session"
+    },
+    {
+      "title": "Event Coverage",
+      "image": "",
+      "category": "Event",
+      "description": "Corporate event photography"
+    }
+  ],
+  "about": {
+    "content": "I'm a passionate photographer with a love for capturing authentic moments and emotions. With over 10 years of experience, I specialize in wedding and portrait photography.",
+    "image": ""
+  },
+  "contact": {
+    "email": "hello@emmaphotography.com",
+    "instagram": ""
+  }
+}
+

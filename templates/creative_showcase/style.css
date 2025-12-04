@@ -1,0 +1,20 @@
+.creative-showcase-portfolio {
+  font-family: 'Poppins', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.creative-showcase-portfolio a {
+  transition: all 0.3s ease;
+}
+
+.creative-showcase-portfolio a:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .creative-showcase-portfolio section {
+    padding: 4rem 1rem !important;
+  }
+}
+

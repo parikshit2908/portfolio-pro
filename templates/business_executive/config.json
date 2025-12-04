@@ -1,0 +1,94 @@
+{
+  "name": "Business Executive",
+  "category": "Business",
+  "description": "A professional, corporate portfolio perfect for executives, consultants, and business professionals. Clean, authoritative design.",
+  "fields": {
+    "hero": {
+      "type": "object",
+      "label": "Hero Section",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Name",
+          "default": "Michael Chen"
+        },
+        "title": {
+          "type": "text",
+          "label": "Title",
+          "default": "Senior Business Consultant"
+        },
+        "company": {
+          "type": "text",
+          "label": "Company",
+          "default": "Global Strategy Group"
+        },
+        "summary": {
+          "type": "textarea",
+          "label": "Professional Summary",
+          "default": "20+ years of experience in strategic planning and business transformation."
+        }
+      }
+    },
+    "services": {
+      "type": "repeater",
+      "label": "Services",
+      "itemLabel": "Service",
+      "fields": {
+        "title": {
+          "type": "text",
+          "label": "Service Title",
+          "default": "Strategic Planning"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "Service description"
+        }
+      }
+    },
+    "testimonials": {
+      "type": "repeater",
+      "label": "Testimonials",
+      "itemLabel": "Testimonial",
+      "fields": {
+        "quote": {
+          "type": "textarea",
+          "label": "Quote",
+          "default": "Testimonial quote"
+        },
+        "author": {
+          "type": "text",
+          "label": "Author",
+          "default": "Client Name"
+        },
+        "position": {
+          "type": "text",
+          "label": "Position",
+          "default": "CEO, Company"
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "label": "Contact",
+      "fields": {
+        "email": {
+          "type": "text",
+          "label": "Email",
+          "default": "michael@example.com"
+        },
+        "phone": {
+          "type": "text",
+          "label": "Phone",
+          "default": "+1 234 567 8900"
+        },
+        "linkedin": {
+          "type": "text",
+          "label": "LinkedIn",
+          "default": ""
+        }
+      }
+    }
+  }
+}
+

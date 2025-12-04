@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "name": "David Freelancer",
+    "title": "Freelance Designer & Developer",
+    "tagline": "Turning ideas into digital reality",
+    "availability": "Available for new projects"
+  },
+  "services": [
+    {
+      "name": "Web Design",
+      "price": "$500",
+      "description": "Custom website design tailored to your brand and audience"
+    },
+    {
+      "name": "Web Development",
+      "price": "$800",
+      "description": "Full-stack development using modern technologies"
+    },
+    {
+      "name": "Brand Identity",
+      "price": "$300",
+      "description": "Complete brand identity design including logo and guidelines"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "E-Commerce Website",
+      "client": "Fashion Brand",
+      "description": "Designed and developed a complete e-commerce platform",
+      "image": ""
+    },
+    {
+      "title": "Corporate Website",
+      "client": "Tech Startup",
+      "description": "Modern, responsive website with custom CMS",
+      "image": ""
+    }
+  ],
+  "contact": {
+    "email": "david@freelancer.com",
+    "phone": "+1 234 567 8900",
+    "website": ""
+  }
+}
+

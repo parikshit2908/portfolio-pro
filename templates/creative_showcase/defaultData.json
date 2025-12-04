@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "name": "Sarah Creative",
+    "title": "Visual Artist & Designer",
+    "bio": "I create visual experiences that tell stories and evoke emotions.",
+    "hero_image": ""
+  },
+  "portfolio": [
+    {
+      "title": "Brand Identity Design",
+      "category": "Branding",
+      "image": "",
+      "description": "Complete brand identity system for a modern tech startup"
+    },
+    {
+      "title": "Illustration Series",
+      "category": "Illustration",
+      "image": "",
+      "description": "A collection of digital illustrations exploring urban landscapes"
+    },
+    {
+      "title": "Web Design",
+      "category": "Web Design",
+      "image": "",
+      "description": "Responsive website design for a creative agency"
+    }
+  ],
+  "contact": {
+    "email": "hello@sarahcreative.com",
+    "instagram": "",
+    "behance": ""
+  }
+}
+

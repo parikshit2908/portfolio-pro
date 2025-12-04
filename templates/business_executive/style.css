@@ -1,0 +1,19 @@
+.business-executive-portfolio {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+}
+
+.business-executive-portfolio a {
+  transition: opacity 0.3s ease;
+}
+
+.business-executive-portfolio a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .business-executive-portfolio section {
+    padding: 4rem 1rem !important;
+  }
+}
+

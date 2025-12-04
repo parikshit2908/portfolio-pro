@@ -1,0 +1,134 @@
+{
+  "name": "Modern Minimal",
+  "category": "Design",
+  "description": "A clean, minimalist portfolio perfect for designers and creative professionals. Features elegant typography and spacious layouts.",
+  "fields": {
+    "hero": {
+      "type": "object",
+      "label": "Hero Section",
+      "fields": {
+        "title": {
+          "type": "text",
+          "label": "Title",
+          "default": "John Doe"
+        },
+        "subtitle": {
+          "type": "text",
+          "label": "Subtitle",
+          "default": "Creative Designer"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "I create beautiful digital experiences that inspire and engage."
+        },
+        "cta_text": {
+          "type": "text",
+          "label": "CTA Button Text",
+          "default": "View My Work"
+        },
+        "background_color": {
+          "type": "color",
+          "label": "Background Color",
+          "default": "#ffffff"
+        },
+        "text_color": {
+          "type": "color",
+          "label": "Text Color",
+          "default": "#1a1a1a"
+        }
+      }
+    },
+    "about": {
+      "type": "object",
+      "label": "About Section",
+      "fields": {
+        "heading": {
+          "type": "text",
+          "label": "Heading",
+          "default": "About Me"
+        },
+        "content": {
+          "type": "textarea",
+          "label": "Content",
+          "default": "I'm a passionate designer with over 5 years of experience creating digital products that users love. I specialize in UI/UX design, branding, and visual storytelling."
+        },
+        "image": {
+          "type": "text",
+          "label": "Image URL",
+          "default": ""
+        }
+      }
+    },
+    "projects": {
+      "type": "repeater",
+      "label": "Projects",
+      "itemLabel": "Project",
+      "fields": {
+        "title": {
+          "type": "text",
+          "label": "Title",
+          "default": "Project Title"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "Project description"
+        },
+        "image": {
+          "type": "text",
+          "label": "Image URL",
+          "default": ""
+        },
+        "link": {
+          "type": "text",
+          "label": "Link",
+          "default": ""
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "label": "Contact Section",
+      "fields": {
+        "email": {
+          "type": "text",
+          "label": "Email",
+          "default": "hello@example.com"
+        },
+        "phone": {
+          "type": "text",
+          "label": "Phone",
+          "default": "+1 234 567 8900"
+        },
+        "social": {
+          "type": "object",
+          "label": "Social Links",
+          "fields": {
+            "linkedin": {
+              "type": "text",
+              "label": "LinkedIn",
+              "default": ""
+            },
+            "twitter": {
+              "type": "text",
+              "label": "Twitter",
+              "default": ""
+            },
+            "github": {
+              "type": "text",
+              "label": "GitHub",
+              "default": ""
+            },
+            "dribbble": {
+              "type": "text",
+              "label": "Dribbble",
+              "default": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

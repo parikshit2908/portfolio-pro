@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "name": "Michael Chen",
+    "title": "Senior Business Consultant",
+    "company": "Global Strategy Group",
+    "summary": "20+ years of experience in strategic planning and business transformation. Specialized in helping Fortune 500 companies achieve sustainable growth."
+  },
+  "services": [
+    {
+      "title": "Strategic Planning",
+      "description": "Develop comprehensive business strategies aligned with your company's vision and market opportunities."
+    },
+    {
+      "title": "Business Transformation",
+      "description": "Guide organizations through digital transformation and operational excellence initiatives."
+    },
+    {
+      "title": "Executive Coaching",
+      "description": "One-on-one coaching for C-level executives to enhance leadership effectiveness."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Michael's strategic insights transformed our business operations and increased our revenue by 35%.",
+      "author": "Jennifer Smith",
+      "position": "CEO, Tech Innovations Inc."
+    },
+    {
+      "quote": "Working with Michael was a game-changer. His expertise in business transformation is unmatched.",
+      "author": "Robert Johnson",
+      "position": "CFO, Global Enterprises"
+    }
+  ],
+  "contact": {
+    "email": "michael@example.com",
+    "phone": "+1 234 567 8900",
+    "linkedin": ""
+  }
+}
+

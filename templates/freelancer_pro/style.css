@@ -1,0 +1,19 @@
+.freelancer-pro-portfolio {
+  font-family: 'Open Sans', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.freelancer-pro-portfolio a {
+  transition: all 0.3s ease;
+}
+
+.freelancer-pro-portfolio a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .freelancer-pro-portfolio section {
+    padding: 4rem 1rem !important;
+  }
+}
+

@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "name": "Alex Johnson",
+    "title": "Full Stack Developer",
+    "tagline": "Building scalable solutions with modern technologies",
+    "github": "",
+    "linkedin": ""
+  },
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Expert"
+    },
+    {
+      "name": "React",
+      "level": "Expert"
+    },
+    {
+      "name": "Node.js",
+      "level": "Advanced"
+    },
+    {
+      "name": "Python",
+      "level": "Advanced"
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate"
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-Commerce Platform",
+      "description": "Built a full-stack e-commerce platform with React frontend and Node.js backend, handling 10k+ daily users.",
+      "tech_stack": "React, Node.js, MongoDB, Stripe",
+      "github_url": "",
+      "live_url": ""
+    },
+    {
+      "name": "Real-time Chat App",
+      "description": "Developed a real-time chat application using WebSockets with message encryption and file sharing.",
+      "tech_stack": "React, Socket.io, Express, PostgreSQL",
+      "github_url": "",
+      "live_url": ""
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Corp",
+      "role": "Senior Software Engineer",
+      "period": "2021 - Present",
+      "description": "Leading development of microservices architecture, improving system performance by 40%."
+    },
+    {
+      "company": "StartupXYZ",
+      "role": "Full Stack Developer",
+      "period": "2019 - 2021",
+      "description": "Built and maintained web applications using React and Node.js, collaborated with cross-functional teams."
+    }
+  ],
+  "contact": {
+    "email": "alex@example.com",
+    "location": "San Francisco, CA"
+  }
+}
+

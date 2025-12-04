@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "John Doe",
+    "subtitle": "Creative Designer",
+    "description": "I create beautiful digital experiences that inspire and engage.",
+    "cta_text": "View My Work",
+    "background_color": "#ffffff",
+    "text_color": "#1a1a1a"
+  },
+  "about": {
+    "heading": "About Me",
+    "content": "I'm a passionate designer with over 5 years of experience creating digital products that users love. I specialize in UI/UX design, branding, and visual storytelling.",
+    "image": ""
+  },
+  "projects": [
+    {
+      "title": "E-Commerce Redesign",
+      "description": "Complete redesign of a modern e-commerce platform focusing on user experience and conversion optimization.",
+      "image": "",
+      "link": "#"
+    },
+    {
+      "title": "Brand Identity",
+      "description": "Created a comprehensive brand identity system including logo, color palette, and typography guidelines.",
+      "image": "",
+      "link": "#"
+    },
+    {
+      "title": "Mobile App Design",
+      "description": "Designed an intuitive mobile application with focus on accessibility and user engagement.",
+      "image": "",
+      "link": "#"
+    }
+  ],
+  "contact": {
+    "email": "hello@example.com",
+    "phone": "+1 234 567 8900",
+    "social": {
+      "linkedin": "",
+      "twitter": "",
+      "github": "",
+      "dribbble": ""
+    }
+  }
+}
+

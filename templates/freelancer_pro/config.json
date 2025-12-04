@@ -1,0 +1,104 @@
+{
+  "name": "Freelancer Pro",
+  "category": "Business",
+  "description": "A professional freelance portfolio template perfect for independent professionals, consultants, and service providers.",
+  "fields": {
+    "hero": {
+      "type": "object",
+      "label": "Hero Section",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Name",
+          "default": "David Freelancer"
+        },
+        "title": {
+          "type": "text",
+          "label": "Title",
+          "default": "Freelance Designer & Developer"
+        },
+        "tagline": {
+          "type": "text",
+          "label": "Tagline",
+          "default": "Turning ideas into digital reality"
+        },
+        "availability": {
+          "type": "text",
+          "label": "Availability",
+          "default": "Available for new projects"
+        }
+      }
+    },
+    "services": {
+      "type": "repeater",
+      "label": "Services",
+      "itemLabel": "Service",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Service Name",
+          "default": "Web Design"
+        },
+        "price": {
+          "type": "text",
+          "label": "Starting Price",
+          "default": "$500"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "Service description"
+        }
+      }
+    },
+    "portfolio": {
+      "type": "repeater",
+      "label": "Portfolio Items",
+      "itemLabel": "Item",
+      "fields": {
+        "title": {
+          "type": "text",
+          "label": "Title",
+          "default": "Project Title"
+        },
+        "client": {
+          "type": "text",
+          "label": "Client",
+          "default": "Client Name"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "Project description"
+        },
+        "image": {
+          "type": "text",
+          "label": "Image URL",
+          "default": ""
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "label": "Contact",
+      "fields": {
+        "email": {
+          "type": "text",
+          "label": "Email",
+          "default": "david@freelancer.com"
+        },
+        "phone": {
+          "type": "text",
+          "label": "Phone",
+          "default": "+1 234 567 8900"
+        },
+        "website": {
+          "type": "text",
+          "label": "Website",
+          "default": ""
+        }
+      }
+    }
+  }
+}
+

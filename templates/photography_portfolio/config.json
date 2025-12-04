@@ -1,0 +1,88 @@
+{
+  "name": "Photography Portfolio",
+  "category": "Photography",
+  "description": "A stunning photography portfolio template with gallery layouts and image-focused design. Perfect for photographers and visual artists.",
+  "fields": {
+    "hero": {
+      "type": "object",
+      "label": "Hero Section",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Photographer Name",
+          "default": "Emma Photography"
+        },
+        "tagline": {
+          "type": "text",
+          "label": "Tagline",
+          "default": "Capturing moments that last forever"
+        },
+        "specialization": {
+          "type": "text",
+          "label": "Specialization",
+          "default": "Wedding & Portrait Photography"
+        }
+      }
+    },
+    "gallery": {
+      "type": "repeater",
+      "label": "Photo Gallery",
+      "itemLabel": "Photo",
+      "fields": {
+        "title": {
+          "type": "text",
+          "label": "Title",
+          "default": "Photo Title"
+        },
+        "image": {
+          "type": "text",
+          "label": "Image URL",
+          "default": ""
+        },
+        "category": {
+          "type": "text",
+          "label": "Category",
+          "default": "Portrait"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "Photo description"
+        }
+      }
+    },
+    "about": {
+      "type": "object",
+      "label": "About",
+      "fields": {
+        "content": {
+          "type": "textarea",
+          "label": "About Text",
+          "default": "I'm a passionate photographer with a love for capturing authentic moments and emotions."
+        },
+        "image": {
+          "type": "text",
+          "label": "About Image URL",
+          "default": ""
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "label": "Contact",
+      "fields": {
+        "email": {
+          "type": "text",
+          "label": "Email",
+          "default": "hello@emmaphotography.com"
+        },
+        "instagram": {
+          "type": "text",
+          "label": "Instagram",
+          "default": ""
+        }
+      }
+    }
+  }
+}
+

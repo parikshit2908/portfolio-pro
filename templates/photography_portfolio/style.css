@@ -1,0 +1,15 @@
+.photography-portfolio {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.photography-portfolio img {
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .photography-portfolio section {
+    padding: 4rem 1rem !important;
+  }
+}
+

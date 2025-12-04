@@ -1,0 +1,131 @@
+{
+  "name": "Tech Professional",
+  "category": "Tech",
+  "description": "A modern portfolio template perfect for developers, engineers, and tech professionals. Features code snippets, project showcases, and technical skills.",
+  "fields": {
+    "hero": {
+      "type": "object",
+      "label": "Hero Section",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Name",
+          "default": "Alex Johnson"
+        },
+        "title": {
+          "type": "text",
+          "label": "Job Title",
+          "default": "Full Stack Developer"
+        },
+        "tagline": {
+          "type": "text",
+          "label": "Tagline",
+          "default": "Building scalable solutions with modern technologies"
+        },
+        "github": {
+          "type": "text",
+          "label": "GitHub URL",
+          "default": ""
+        },
+        "linkedin": {
+          "type": "text",
+          "label": "LinkedIn URL",
+          "default": ""
+        }
+      }
+    },
+    "skills": {
+      "type": "repeater",
+      "label": "Technical Skills",
+      "itemLabel": "Skill",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Skill Name",
+          "default": "JavaScript"
+        },
+        "level": {
+          "type": "text",
+          "label": "Proficiency Level",
+          "default": "Expert"
+        }
+      }
+    },
+    "projects": {
+      "type": "repeater",
+      "label": "Projects",
+      "itemLabel": "Project",
+      "fields": {
+        "name": {
+          "type": "text",
+          "label": "Project Name",
+          "default": "Project Name"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "Project description"
+        },
+        "tech_stack": {
+          "type": "text",
+          "label": "Tech Stack",
+          "default": "React, Node.js, MongoDB"
+        },
+        "github_url": {
+          "type": "text",
+          "label": "GitHub URL",
+          "default": ""
+        },
+        "live_url": {
+          "type": "text",
+          "label": "Live URL",
+          "default": ""
+        }
+      }
+    },
+    "experience": {
+      "type": "repeater",
+      "label": "Work Experience",
+      "itemLabel": "Experience",
+      "fields": {
+        "company": {
+          "type": "text",
+          "label": "Company",
+          "default": "Company Name"
+        },
+        "role": {
+          "type": "text",
+          "label": "Role",
+          "default": "Software Engineer"
+        },
+        "period": {
+          "type": "text",
+          "label": "Period",
+          "default": "2020 - Present"
+        },
+        "description": {
+          "type": "textarea",
+          "label": "Description",
+          "default": "Work description"
+        }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "label": "Contact",
+      "fields": {
+        "email": {
+          "type": "text",
+          "label": "Email",
+          "default": "alex@example.com"
+        },
+        "location": {
+          "type": "text",
+          "label": "Location",
+          "default": "San Francisco, CA"
+        }
+      }
+    }
+  }
+}
+
